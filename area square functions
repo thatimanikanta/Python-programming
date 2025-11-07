@@ -1,0 +1,4 @@
+def my_function(a):
+    return a*a
+a=int(input("enter the side:"))
+print("area square =",my_function(a))

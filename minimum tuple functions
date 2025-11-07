@@ -1,0 +1,5 @@
+def my_function(s):
+    s1=min(s)
+    return s1
+s=(1,2,3,4,5)
+print("minimum tuple =",my_function(s))

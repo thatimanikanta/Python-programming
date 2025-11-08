@@ -1,0 +1,7 @@
+def my_function(n1,n2,n3):
+    maximum=max(n1,n2,n3)
+    return maximum
+n1=int(input("enter the first number:"))
+n2=int(input("enter the second number:"))
+n3=int(input("enter the third number:"))
+print("largest three numbers =",my_function(n1,n2,n3))
